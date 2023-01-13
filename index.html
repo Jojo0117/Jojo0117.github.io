@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Yuehan Qi</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-103598896-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          
+          <div class="flex-item flex-column">
+            <h2>Yuehan Qi</h2>
+            <p class="text">
+              4th-year Compsci Student<br>
+              18yq36 (at) queensu.ca<br>
+              
+              <a href="https://www.queensu.ca" target="_blank">Queen's Univeristy</a><br>
+            </p>
+          </div>
+        </div>
+       
+           
+        
+
+            
+          <!--Start Projects-->
+          <div class="flex-row full-width">
+            <div class="flex-item flex-column full-width">
+              <h2>Projects</h2>
+              <hr>
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flex-item flex-item-stretch flex-column">
+              <img class="image max-width-600" src="img/floatpoint.jpg">
+            </div>
+            <div class="flex-item flex-item-stretch-6 flex-column">
+              <p class="text">
+                <span class="highlight-text">A Communication-Efficient Protocol for Federated
+                  Learning in Energy Storage Systems</span><br>
+                I analyze the data from 5 battery-backed energy storage systems. By visulizing the max and min value of the 5 clients in 50 communication rounds within 2.5 and 97.5 percentiles,
+                the commonly-used single precision format can be reduced to 1.5 bytes representation, and thus decrease the transmission delay. The proposed communication protocal
+                has wide applications on battery-backed energy storage systems, being validated through experiments on many datasets including the MNIST dataset. 
+                (<a href="https://colab.research.google.com/drive/1GHdMZY7852AjjWENaY1ONvlEXGCjSw9Y?usp=sharing" target="_blank">Code</a>)
+                (<a href="file/INFOMCOM_2023.pdf" target="_blank">Poster</a>)
+              </p>
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flex-item flex-item-stretch flex-column">
+              <img class="image max-width-600" src="img/text classification.jpg">
+            </div>
+            <div class="flex-item flex-item-stretch-6 flex-column">
+              <p class="text">
+                <span class="highlight-text">Covid-19 Tweets Sentiment Classification</span><br>
+                I worked in a team of 4 to apply different models on the text data to examine and compare their performances. The data was extracted from Twitter and tagged with sentiments. 
+                I implemented the LSTM model anf helped with preprocessing the data. 
+              
+                (<a href="https://colab.research.google.com/drive/1KztycR5AmeQG6RAxGu9mVVUYBvmRbgrp?usp=share_link" target="_blank">Code</a>)
+                (<a href="file/Group17_TXT_CISC 452 Report.pdf" target="_blank">Report</a>)
+              </p>
+            </div>
+          </div>
+        
+          <div class="flex-row">
+            <div class="flex-item flex-item-stretch flex-column">
+              <img class="image max-width-600" src="img/bank analysis.jpg">
+            </div>
+            <div class="flex-item flex-item-stretch-6 flex-column">
+              <p class="text">
+                <span class="highlight-text">Business Analysis on TD Bank's Customer Behavior</span><br>
+                The analysis is based on the files of customer transactions, customer acccounts and their transaction records. First, I displayed several relations between the customers
+                and their transaction records to show the performance of certain business, for example, the day of the highest avarage spend on Starbucks gives out a good time of period to release the new product. 
+                Then I determined the suitable merchant category and the customer segments to focus on for the newly released product, based on the visualization and distribution of 
+                various features.
+                (<a href="https://colab.research.google.com/drive/1khLRGsKbKC2xXL_L8_SCsl4vIO1iQTIQ?usp=sharing" target="_blank">Code</a>)
+              </p>
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flex-item flex-item-stretch flex-column">
+              <img class="image max-width-600" src="img/322architecture.jpg">
+            </div>
+            <div class="flex-item flex-item-stretch-6 flex-column">
+              <p class="text">
+                <span class="highlight-text">Reports on the Software Architecture of the Autonomous Driving Software Apollo </span><br>
+                I worked in a team of 5 to generate 3 software architecture reports(conceptual architecture, concrete architecture and architecture enhancement) of Apollo, in which I analyzed 
+                the impacted NFRs, stakeholders, and implementations of a proposed feature of Apollo through the SAMM analysis method.
+                I also proposed and realized the enhancement for the specific subsystem while minimized the risks to NFRs, strengthening the overall efficiency.
+                And I Applied SciTools Understand for mapping the code to build a concrete architecture of Apollo system then performed the Reflexion Analysis on it.
+                (<a href=" https://stevenn2333.github.io/deadlinechasingwarriors/" target="_blank">Website link</a>)
+                (<a href="file/CISC322 A1Conceptural Architecture report.pdf" target="_blank">Report 1</a>)
+                (<a href="file/Assignment 2.pdf" target="_blank">Report 2</a>)
+                (<a href="file/A3-Proposal for Enhancement.pdf" target="_blank">Report 3</a>)
+              </p>
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flex-item flex-item-stretch flex-column">
+              <img class="image max-width-600" src="img/windy grid.jpg">
+            </div>
+            <div class="flex-item flex-item-stretch-6 flex-column">
+              <p class="text">
+                <span class="highlight-text">Windy Grid World with Q-Learning and SARSA Algorithm</span><br>
+                I applied the Q-Learning and the SARSA algorithms to the windy grid world problem to find the optimal solution. In addition, I extend the solution to the windy grid problem
+                with King's moves and stochastic transition to validate the conclusion.
+                (<a href="https://colab.research.google.com/drive/162I-AwXgB4PbuQE__xr6pgebbc58rgDT?usp=sharing" target="_blank">Code</a>)
+                (<a href="file/A2_WindyGrid_Report.pdf" target="_blank">Report</a>)
+              </p>
+            </div>
+          </div>
+          <div class="flex-row">
+            <div class="flex-item flex-item-stretch flex-column">
+              <img class="image max-width-600" src="img/broadband.jpg">
+            </div>
+            <div class="flex-item flex-item-stretch-6 flex-column">
+              <p class="text">
+                <span class="highlight-text">Ongoing Project: How are you served by the Internet</span><br>
+                I worked with a group of 3 to explore, visualize, analyze, and envision the Internet service provision
+                in Canada availed by the Open Government portal of National Broadband Data. By analyzing the speed distribution of broadband based on geographic distribution, 
+                we will demonstrate the potential social factors that affect the Internet coverage in different regions such as the household income, education levels of people 
+                living in the area and its relationship with economic growth. Then we visualize the data to illustrate the network, internet speed, and internet usage penetration in different provinces of Canada.
+                (<a href="file/Ubdergraduate Project Proposal.pdf" target="_blank">Proposal</a>)
+              </p>
+            </div>
+          </div>
+          
+          <!--End Projects-->
+
+        </ol>
+        <h2>Publications</h2>
+        <hr>
+        
+        
+            <p class="text-small-margin">
+              Beichen Sun, <b>Yuehan Qi</b>, Guanyu Zhang, Yang Liu. 2022. Edge Guidance Filtering for Structure Extraction. Spring Nature 2022. The Visual Computer.
+              <br>
+              <a href="https://doi.org/10.1007/s00371-022-02662-4" target="_blank">Source</a>
+              &nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="file/Edge guidance filtering for structure extraction.pdf" target="_blank">PDF</a>
+          
+            </p>
+
+            <p class="text-small-margin">
+              Yitian Wang, Jun Lin, Liu Zhang, Tianhao Wang, Hao Xu,
+              <b>Yuehan Qi</b>, Guanyu Zhang, and Yang Liu. Stable Obstacle Avoidance Strategy for
+              Crawler-Type Intelligent Transportation
+              Vehicle in Non-Structural Environment
+              Based on Attention-Learning.
+              IEEE Transactions on Intelligent Transportation Systems 2022.
+              <br>
+              <a href="https://doi.org/10.1109/TITS.2022.3226493" target="_blank">Source</a>
+              &nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="FILE/Stable_Obstacle_Avoidance_Strategy_for_Crawler-Type_Intelligent_Transportation_Vehicle_in_Non-Structural_Environment_Based_on_Attention-Learning.pdf" target="_blank">PDF</a>
+            </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
